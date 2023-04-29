@@ -8,6 +8,7 @@
   ],
   "minimum-stability": "beta",
   "require": {
+    "ext-ffi": "*",
     "l3tum/php-uring": "@dev"
   },
   "autoload": {
