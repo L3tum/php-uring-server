@@ -1,15 +1,9 @@
 {
   "name": "l3tum/php-uring-server",
-  "repositories": [
-    {
-      "type": "path",
-      "url": "../php-uring-base"
-    }
-  ],
   "minimum-stability": "beta",
   "require": {
     "ext-ffi": "*",
-    "l3tum/php-uring": "@dev"
+    "l3tum/php-uring": "^0.1"
   },
   "autoload": {
     "psr-4": {
