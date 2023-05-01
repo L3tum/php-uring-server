@@ -4,7 +4,9 @@
   "minimum-stability": "beta",
   "require": {
     "ext-ffi": "*",
-    "l3tum/php-uring": "^0.1"
+    "ext-mbstring": "*",
+    "l3tum/php-uring": "^0.1",
+    "amphp/http": "^2.0"
   },
   "autoload": {
     "psr-4": {
